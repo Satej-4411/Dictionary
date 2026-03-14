@@ -2732,7 +2732,8 @@ for(let i = 65; i <= 90; i++){
     const letter = String.fromCharCode(i);
 
     const btn = document.createElement("button");
-    btn.innerText = letter;
+btn.innerText = letter;
+btn.className = "alphabet-btn";
 
     btn.onclick = () => filterByLetter(letter);
 
